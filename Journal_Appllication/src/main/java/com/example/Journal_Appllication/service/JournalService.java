@@ -36,4 +36,5 @@ public class JournalService {
     public Optional<JournalEntity> findbyId(Long id) {
         return journalRepository.findById(id);
     }
+
 }
